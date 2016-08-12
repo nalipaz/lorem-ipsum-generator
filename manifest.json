@@ -1,0 +1,21 @@
+{
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "name": "Lorem Ipsum Generator (Default Text)",
+  "version": "1.1.0",
+  "description": "Provides an elegant and quick way to create default text or generate Lorem Ipsum. Optimized for quick usage, but it can customized.",
+  "browser_action": {
+    "default_icon": "icon-19.png",
+    "default_popup": "index.html"
+  },
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "text/*.txt"
+  ]
+}

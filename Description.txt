@@ -1,0 +1,6 @@
+The Default Text Generator quickly delivers default text to complement your amazing design. The default settings are optimized to be used right after installation, but you can easily customize a few settings to get the perfect text for your taste. Each sentence is randomly generated to simulate real text.
+
+Options:
+1-5 paragraphs with 1-20 sentences per paragraph
+Lorem Ipsum or Default Text
+Optional paragraph tag encasing or other line breaks
