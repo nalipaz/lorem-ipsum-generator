@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0.3'>
-  <app appid='kgdijhhhaclonemidfenfjbnblcpabmg'>
+  <app appid='dkgmhminaokkejenbkkjaeeimddfmbhb'>
     <updatecheck codebase='https://github.com/nalipaz/lorem-ipsum-generator/releases/download/2.0.3/lipsum.crx' version='2.0.3' />
   </app>
 </gupdate>
