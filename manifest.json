@@ -8,6 +8,13 @@
     "default_icon": "icon-19.png",
     "default_popup": "index.html"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js":      ["./content.js"],
+      "run_at":  "document_end"
+    }
+  ],
   "icons" : {
     "48" : "icon-48.png",
     "128" : "icon-128.png"
