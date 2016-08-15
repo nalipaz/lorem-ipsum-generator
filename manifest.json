@@ -1,7 +1,7 @@
 {
   "update_url": "http://cdn.rawgit.com/nalipaz/lorem-ipsum-generator/master/updates.xml",
   "name": "Lorem Ipsum Generator (Default Text)",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Provides an elegant and quick way to create default text or generate Lorem Ipsum. Optimized for quick usage, but it can customized.",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Ed7d5FKwU6HSs16OMEqF4puXVheltuVCfJ+1bIy2CGJ8bWpISRL/jShM7F2qT5rqH/A/HHtA3sEdR05zSOV5BKwDB2CMRA2GjmxxDN9fDAAwU5IdfwskFTIaWSQ8HvAA+i4JeZH2aR/vpbeY6YA+x2K0Lu4ZH11ZvYr5gzkq5bhHzlRATKQPDBsz9gTlfhqccggxRe210YqLYSmxnAjkjJIkQP08GczAgAszq+mtF0th+04j3ELc3kv7qzPtPcT7HLywUdboNQOvvO0uBmiH+5PAxjdCr5eJTW7yMSjXZ42V7Hg/IU0ZuhoP7FpFkO7WllFiTW9Wju4Q7kGU19YYQIDAQAB",
   "browser_action": {
