@@ -14,7 +14,11 @@
   },
   "manifest_version": 2,
   "permissions": [
-    "storage"
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "storage",
+    "clipboardWrite"
   ],
   "web_accessible_resources": [
     "text/*.txt"
