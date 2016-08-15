@@ -41,6 +41,13 @@ document.getElementById('optionsId').onclick = function() {
 	document.getElementById('pCountId').focus();
 	return false;
 }
+document.getElementById('copy').onclick = function() {
+	copyToClipboard(document.getElementById('contGenId'));
+}
+
+document.getElementById('insert').onclick = function() {
+	insertAtCursor(document.getElementById('contGenId').value);
+}
 
 //functions
 function createContent() {
@@ -164,5 +171,14 @@ function restore_options() {
 			document.getElementById(fieldId).value = settings.form_values[fieldId];
 		}
 		createContent();
+	});
+}
+function copyToClipboard(input) {
+	input.select();
+	document.execCommand('Copy');
+}
+function insertAtCursor(value) {
+	chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+		chrome.tabs.sendMessage(tabs[0].id, {lipsum: value}, function(response){});
 	});
 }
