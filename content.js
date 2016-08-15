@@ -1,6 +1,5 @@
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    alert("request:" + request.lipsum);
     var input = document.activeElement;
     if (input.selectionStart || input.selectionStart == '0') {
       var startPos = input.selectionStart;
