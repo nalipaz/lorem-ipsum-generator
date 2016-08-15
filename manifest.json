@@ -1,5 +1,5 @@
 {
-  "update_url": "http://cdn.rawgit.com/nalipaz/lorem-ipsum-generator/master/updates.xml",
+  "update_url": "https://rawgit.com/nalipaz/lorem-ipsum-generator/master/updates.xml",
   "name": "Lorem Ipsum Generator (Default Text)",
   "version": "2.0.2",
   "description": "Provides an elegant and quick way to create default text or generate Lorem Ipsum. Optimized for quick usage, but it can customized.",
