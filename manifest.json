@@ -1,7 +1,7 @@
 {
-  "update_url":"http://clients2.google.com/service/update2/crx",
+  "update_url": "https://raw.githubusercontent.com/nalipaz/lorem-ipsum-generator/master/updates.xml",
   "name": "Lorem Ipsum Generator (Default Text)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Provides an elegant and quick way to create default text or generate Lorem Ipsum. Optimized for quick usage, but it can customized.",
   "browser_action": {
     "default_icon": "icon-19.png",
