@@ -1,0 +1,35 @@
+language: generic
+
+matrix:
+  fast_finish: true
+
+addons:
+  apt:
+    packages:
+      - jq
+
+before_install:
+  - cd /usr/local/bin/
+  - sudo curl -LO https://cdn.rawgit.com/GoogleChrome/chrome-app-samples/cf768bbcbd0553dbe21197beb481e0371258b0a5/samples/dojo/crxmake.sh
+  - sudo chmod +x crxmake.sh
+  - cd ${TRAVIS_BUILD_DIR}
+  - openssl aes-256-cbc -pass "pass:${PEM_DECRYPTION_KEY}" -in extension.pem.enc -out extension.pem -d -a
+
+install:
+  - export name=`cat src/manifest.json | jq -r .name`
+  - export description=`cat src/manifest.json | jq -r .description`
+  - mv src ${namespace}
+  - crxmake.sh ${namespace} extension.pem
+
+deploy:
+  provider: releases
+  api_key: "${GITHUB_TOKEN}"
+  file:
+    - ${namespace}.crx
+  skip_cleanup: true
+  on:
+    tags: true
+
+env:
+  global:
+    - namespace=lorem-ipsum-generator

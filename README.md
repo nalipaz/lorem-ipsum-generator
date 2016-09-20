@@ -1,7 +1,7 @@
 # lorem-ipsum-generator
 Google Chrome extension for Lorem Ipsum Generation
 
-This is a fork of the Google Chrome extention [Lorem Ipsum Generator (Default Text)](https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en). It has the additional features of:
+This is a fork of the Google Chrome extension [Lorem Ipsum Generator (Default Text)](https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en). It has the additional features of:
 
  1. Remembering settings and storing them in chrome sync so they synchronize across browsers.
  2. Providing additional Ipsum text variants.
